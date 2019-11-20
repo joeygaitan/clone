@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/joeygaitan/clone#readme",
   "dependencies": {
     "lite-server": "^2.5.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }

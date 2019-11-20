@@ -1,0 +1,4 @@
+.navItem:hover{
+    cursor: pointer;
+    background-color: grey;
+}
